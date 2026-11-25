@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Extract source
-        run: unzip -o T58_Print_V1_Source.zip
+        run: unzip -o T58_Print_V2_Source.zip
 
       - uses: actions/setup-java@v4
         with:
