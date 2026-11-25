@@ -10,8 +10,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Extract source
-        run: unzip -o T58_Print_V2_Source.zip
-
+        run: unzip -o ZP_Print_V3_Source.zip
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
